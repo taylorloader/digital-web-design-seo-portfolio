@@ -28,9 +28,19 @@ I design, build, write, and manage Squarespace 7.1 websites, combining clear use
 - [Best Western Plus Edmonton Airport Hotel](projects/edmonton-airport-hotel/)
 - [Best Western Camrose](projects/best-western-camrose/)
 
+## Featured technical example: Denham button system
+
+A custom three-style CSS button system demonstrates coordinated visual design and interaction states:
+
+- Primary: red → champagne / gold.
+- Secondary: cream / gold → red.
+- Tertiary: translucent frosted-glass treatment → gold.
+
+**[Open the interactive button demonstration](technical-examples/custom-css/denham-button-system.html)** · [View the CSS](technical-examples/custom-css/denham-button-system.css) · [View the state comparison graphic](technical-examples/custom-css/button-state-comparison.svg)
+
 ## Technical examples
 
-Selected, sanitized examples will be organized under [technical examples](technical-examples/), including CSS, HTML, structured data, and technical SEO. Examples will exclude credentials, private business information, and material that I do not have permission to share.
+Selected examples are organized under [technical examples](technical-examples/), including CSS, HTML, structured data, and technical SEO. Examples exclude credentials and private business information.
 
 ## About my role
 
