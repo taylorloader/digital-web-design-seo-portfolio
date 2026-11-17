@@ -2,27 +2,43 @@
 
 This section documents selected front-end styling work for the Best Western Premier Denham Inn & Suites website.
 
-## Button interaction system
+## Interactive button-system showcase
 
-A central feature of the stylesheet is a coordinated button system with three visual treatments:
+The button system has three coordinated visual treatments:
 
-| Button type | Resting appearance | Desktop hover appearance |
+| Button type | Resting appearance | Hover / keyboard-focus appearance |
 |---|---|---|
-| Primary | Deep red with layered gradient detail | Champagne / gold with dark text |
-| Secondary | Light champagne / gold with dark text | Deep red with light text |
-| Tertiary | Translucent, blurred-glass treatment | Champagne / gold with dark text |
+| Primary | Layered Denham-red satin gradient with light sheen | Champagne / gold gradient with dark text |
+| Secondary | Pearl cream / champagne gradient with a fine gold edge | Denham-red satin gradient with light text |
+| Tertiary | Translucent frosted-glass treatment over image tiles | Champagne / gold gradient with dark text |
 
-The system also includes:
+![Denham button system comparison](button-state-comparison.svg)
 
-- Shared spacing, sizing, transition, and shadow rules.
-- A subtle vertical lift and stronger shadow on desktop hover.
-- A visible keyboard focus outline.
-- Touch-specific active and resting states for devices without hover.
-- Separate link styling so standard text-link hover behavior does not interfere with button appearance.
+**[Open the interactive button-system demonstration](denham-button-system.html)**
 
-## Additional refinements
+The demonstration includes side-by-side resting and hover samples, plus live buttons that can be hovered or reached with a keyboard. The hover samples use a demo-only class so the visual state can be shown in a static comparison without a cursor.
 
-The broader stylesheet includes targeted rules for selected Squarespace components:
+## Button behavior and styling
+
+- Shared sizing, typography, border radius, transitions, and layered shadows.
+- A 4px upward lift and stronger shadow on hover or keyboard focus.
+- Animated gradient positioning to create the satin / brushed-metal effect.
+- Primary buttons transition from red to gold.
+- Secondary buttons transition from cream / gold to red.
+- Tertiary buttons transition from translucent white over photography to gold, with a subtle sheen overlay.
+- Keyboard focus uses the same visual treatment as hover.
+
+## Source files
+
+- [Interactive HTML demonstration](denham-button-system.html)
+- [Reusable button CSS](denham-button-system.css)
+- [Static state-comparison graphic](button-state-comparison.svg)
+
+The standalone HTML page is a portfolio demonstration. Its live examples link to public pages on the hotel website; its comparison states are rendered samples rather than screenshots of the production site.
+
+## Additional CSS refinements
+
+The broader master stylesheet also includes targeted refinements for selected Squarespace components:
 
 - Link and footer-link behavior.
 - Rich-text / HTML-block checklists with inline gold checkmarks.
@@ -33,10 +49,10 @@ The broader stylesheet includes targeted rules for selected Squarespace componen
 
 ## Implementation notes
 
-The stylesheet uses CSS custom properties for the core red, neutral, and champagne/gold palette, along with reusable shadow and transition values. This supports consistent styling and makes global refinements easier.
+The button rules are written as reusable CSS classes and can be adapted to Squarespace 7.1 elements. The standalone demonstration uses plain HTML and CSS to make the visual states easy to inspect. This is front-end styling customization, not a JavaScript application or a replacement for Squarespace platform functionality.
 
-The code is written for Squarespace 7.1's existing elements and class names. It is CSS customization, not a JavaScript application or a replacement for Squarespace's platform functionality.
+The HTML demonstration includes a small JavaScript view toggle; the button styling and hover transitions themselves are CSS.
 
 ## Portfolio publishing
 
-Before adding full source snippets, review them for any private URLs, internal identifiers, or business-specific details that should not be public. Publish only code that you authored or are authorized to share.
+Publish only code and business materials that you authored or are authorized to share. Review future examples for credentials, internal identifiers, private URLs, and confidential information.
