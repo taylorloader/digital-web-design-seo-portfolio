@@ -34,20 +34,25 @@ The layout uses alternating light neutral sections, photography, concise text bl
 
 ## Custom CSS: interactive button system
 
-A significant part of my custom CSS work is a coordinated button system that gives the site's calls to action a more distinctive, polished interaction.
+A significant part of my custom CSS work is a coordinated button system that gives the site's calls to action a distinctive, polished interaction.
 
-The supplied homepage comparison shows the same overall page design with and without the custom CSS. The code adds button styling and interaction behavior rather than changing the underlying page structure.
+The system has three styles:
 
-The button system includes:
+- **Primary:** layered Denham-red satin gradient at rest, transitioning to champagne / gold with dark text on hover or keyboard focus.
+- **Secondary:** pearl cream / champagne gradient at rest, transitioning to the red satin treatment with light text.
+- **Tertiary:** translucent frosted-glass treatment over photographic tiles, transitioning to champagne / gold.
 
-- **Primary buttons:** deep hospitality red at rest, with a champagne / gold treatment on desktop hover.
-- **Secondary buttons:** a light champagne / gold treatment at rest, switching to the red treatment on desktop hover.
-- **Tertiary buttons:** a translucent, blurred-glass appearance, with a champagne / gold hover treatment.
-- **Motion and depth:** short transitions, a subtle lift on hover, and layered shadows.
-- **Touch behavior:** separate resting and active-state refinements for touch devices, where hover is not available.
-- **Keyboard accessibility:** a visible focus outline for keyboard navigation.
+The shared interaction layer adds a short transition, a 4px vertical lift, and a stronger layered shadow. The gradient background position animates to create the satin / brushed-metal finish. The tertiary treatment also uses a subtle pseudo-element sheen.
 
-The stylesheet also centralizes brand colors and reusable shadow values with CSS custom properties. This makes the visual system easier to maintain consistently.
+### Portfolio demonstration
+
+![Denham button-system states](../../technical-examples/custom-css/button-state-comparison.svg)
+
+- **[View the interactive button-system demo](../../technical-examples/custom-css/denham-button-system.html)** — compare the resting and hover states or test the live buttons.
+- **[View the reusable CSS](../../technical-examples/custom-css/denham-button-system.css)**
+- **[View the custom CSS showcase documentation](../../technical-examples/custom-css/README.md)**
+
+The comparison graphic is a designed visual reference based on the supplied CSS. The interactive page contains live CSS examples; neither is presented as a screenshot captured from the production site.
 
 ## Other CSS refinements
 
@@ -55,7 +60,7 @@ The master stylesheet also includes targeted refinements for:
 
 - Link hover and visited states, while preventing button links from inheriting ordinary text-link underlines.
 - Gold inline checkmarks and clean wrapping in selected rich-text / HTML-block lists.
-- Rounded image corners across selected blog, summary, gallery, and carousel elements.
+- Rounded image corners across selected blog, summary, gallery, and carousel media.
 - Footer newsletter width, spacing, field sizing, and button sizing.
 - Mobile navigation menu colors.
 - Hero introduction list spacing.
@@ -74,12 +79,8 @@ On-page SEO, metadata, and structured data are part of the site's ongoing optimi
 
 The website represents one property within a group of hospitality businesses. Its digital experience needs to communicate the individual hotel's identity while fitting into a wider multi-property ecosystem.
 
-## Portfolio evidence
-
-The homepage comparison supplied for this case study demonstrates the visual result of the custom CSS layer. Additional approved screenshots and sanitized examples can be added as the case study is developed.
-
-Only publish screenshots, code, and business materials that are approved for portfolio use. Remove credentials, private contact details, and confidential information.
-
 ## Skills demonstrated
 
 Squarespace 7.1 · Website design · Website development · Content strategy · Copywriting · On-page SEO · Metadata · CSS · HTML · JSON-LD · Schema.org · Responsive refinements · Website management
+
+Only publish screenshots, code, and business materials that are approved for portfolio use. Remove credentials, private contact details, and confidential information.
