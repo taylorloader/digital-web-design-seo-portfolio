@@ -1,0 +1,58 @@
+/* Denham Button System — extracted from the supplied standalone HTML demonstration. */
+.bw-btn {
+  position: relative; display: inline-flex; align-items: center; justify-content: center;
+  overflow: hidden; font-family: "Alegreya Sans", sans-serif; font-weight: 500;
+  font-size: 19.5px; letter-spacing: .01em; line-height: 1.1;
+  padding: 18.6px 26.4px; border: .8px solid transparent; border-radius: 5px;
+  text-decoration: none; cursor: pointer;
+  box-shadow: 0 12px 28px rgba(0,0,0,.12), 0 3px 10px rgba(0,0,0,.08);
+  transition: transform .18s, box-shadow .18s, background-position .32s,
+              border-color .22s, opacity .18s, color .18s;
+}
+.bw-btn:hover, .bw-btn:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 44px rgba(0,0,0,.16), 0 5px 14px rgba(0,0,0,.10);
+  outline: none;
+}
+/* Primary — red satin with a light sheen; flips to brushed gold on hover */
+.bw-btn--primary {
+  color: #fff; background-color: #9d151a;
+  background-image: linear-gradient(110deg,#8f151a 0%,#a61b20 18%,#861316 36%,rgba(255,255,255,.22) 46%,rgba(255,255,255,.58) 50%,rgba(255,255,255,.18) 54%,#861316 64%,#a61b20 82%,#8f151a 100%),repeating-linear-gradient(90deg,rgba(255,255,255,.04) 0 2px,rgba(0,0,0,.02) 10px 16px);
+  background-size: 250% 100%,44px 100%; background-position: 0% 50%,0% 50%;
+  text-shadow: 0 1px 0 rgba(0,0,0,.18);
+}
+.bw-btn--primary:hover, .bw-btn--primary:focus-visible {
+  color: #000; text-shadow: none;
+  background-image: linear-gradient(120deg,#fff6e3 0%,#f2deae 22%,#d8b56a 40%,#fff0c9 54%,#b78218 70%,#ffeab5 84%,#8e6210 100%),repeating-linear-gradient(90deg,rgba(255,255,255,.06) 0 2px,rgba(0,0,0,.02) 10px 16px);
+  background-size: 210% 100%,44px 100%; background-position: 56% 50%,14% 50%;
+}
+/* Secondary — pearl cream with a thin gold edge; flips to red satin on hover */
+.bw-btn--secondary {
+  color: #000; background-color: transparent; border-color: rgba(183,130,24,.28);
+  background-image: linear-gradient(110deg,rgba(255,246,214,.96) 0%,rgba(255,240,201,.96) 20%,rgba(255,255,255,.92) 50%,rgba(242,220,160,.96) 78%,rgba(199,154,53,.9) 100%),repeating-linear-gradient(90deg,rgba(255,255,255,.1) 0 2px,rgba(0,0,0,.02) 10px 16px);
+  background-size: 220% 100%,44px 100%; background-position: 40% 50%,0% 50%;
+}
+.bw-btn--secondary:hover, .bw-btn--secondary:focus-visible {
+  color: #fff; border-color: transparent; background-color: #9d151a;
+  text-shadow: 0 1px 0 rgba(0,0,0,.18);
+  background-image: linear-gradient(110deg,#8f151a 0%,#a61b20 18%,#861316 36%,rgba(255,255,255,.22) 46%,rgba(255,255,255,.58) 50%,rgba(255,255,255,.18) 54%,#861316 64%,#a61b20 82%,#8f151a 100%);
+  background-size: 250% 100%; background-position: 56% 50%;
+}
+/* Tertiary — frosted glass label over photo tiles; fills with brushed gold on hover */
+.bw-btn--tertiary {
+  width: 100%; height: 57.6px; padding: 0 24.3px; font-size: 18px; color: #111;
+  background-color: rgba(255,255,255,.58); border-color: rgba(255,255,255,.62);
+}
+.bw-btn--tertiary::after {
+  content: ""; position: absolute; inset: 0; border-radius: inherit;
+  background: linear-gradient(120deg,rgba(255,255,255,0) 0%,rgba(255,255,255,.12) 32%,rgba(255,255,255,0) 70%);
+  opacity: 0; transition: opacity .18s,transform .32s; pointer-events: none;
+}
+.bw-btn--tertiary:hover, .bw-btn--tertiary:focus-visible {
+  color: #000; border-color: transparent;
+  background-image: linear-gradient(120deg,#fff6e3 0%,#f2deae 24%,#d8b56a 44%,#fff0c9 58%,#b78218 74%,#ffeab5 86%,#8e6210 100%);
+  background-size: 210% 100%; background-position: 54% 50%;
+}
+.bw-btn--tertiary:hover::after, .bw-btn--tertiary:focus-visible::after {
+  opacity: .35; transform: translateX(10%);
+}
