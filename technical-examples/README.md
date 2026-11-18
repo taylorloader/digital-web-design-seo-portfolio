@@ -2,6 +2,7 @@
 
 Selected, sanitized examples of front-end customization and technical SEO work. All examples contain only public information or code I authored.
 
-- **[Custom CSS](custom-css/)** — the Denham three-style interactive button system, with a live demo and state comparison graphic.
-- **[Structured data](structured-data/)** — hand-written JSON-LD / Schema.org entities (`Hotel`, `Restaurant`, `Service`).
-- **[AI discoverability](ai-discoverability/)** — `llms.txt` implementation for AI answer engines, kept consistent with the site's structured data.
+- **[Technical SEO](technical-seo/)**: full-site audit results, 301 redirect rules and a tag-archive `noindex` script.
+- **[Structured data](structured-data/)**: connected JSON-LD `@graph` (operator → hotel → restaurant, lounge, services, FAQ), validated with 0 errors.
+- **[AI discoverability](ai-discoverability/)**: `llms.txt` for AI answer engines, kept consistent with the structured data.
+- **[Custom CSS](custom-css/)**: the Denham three-style interactive button system, with a live demo and state comparison graphic.

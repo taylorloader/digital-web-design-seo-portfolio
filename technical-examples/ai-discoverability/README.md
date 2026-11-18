@@ -4,7 +4,7 @@
 
 ## What I implemented
 
-- Published `/llms.txt` on [bestwesterndenham.com](https://www.bestwesterndenham.com/llms.txt) (Squarespace 7.1).
+- Wrote and published `/llms.txt` on [bestwesterndenham.com](https://www.bestwesterndenham.com/llms.txt) using Squarespace 7.1's built-in llms.txt setting: 18 annotated links in six sections.
 - Kept the facts in the file consistent with the site's JSON-LD `Hotel` entity (address, telephone, check-in / check-out, amenities), so search engines and AI tools receive the same answer from both sources.
 - Confirmed the site's `robots.txt` permits the major AI crawlers (GPTBot, ClaudeBot, Google-Extended, Applebot-Extended, PerplexityBot and others), so the file can actually be read.
 - Structured the file to the [llms.txt proposal](https://llmstxt.org/): H1 name, blockquote summary, key facts, then H2 sections of annotated Markdown links, with lower-priority pages under `## Optional`.
