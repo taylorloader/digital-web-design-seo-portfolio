@@ -1,0 +1,560 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://www.bwedmontonairporthotel.com/faq#faqpage",
+  "url": "https://www.bwedmontonairporthotel.com/faq",
+  "name": "Hotel FAQ | Best Western Plus Edmonton Airport Hotel, Leduc",
+  "inLanguage": "en-CA",
+  "about": {
+    "@id": "https://www.bwedmontonairporthotel.com/#hotel"
+  },
+  "isPartOf": {
+    "@id": "https://www.bwedmontonairporthotel.com/#website"
+  },
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Where is Best Western Plus Edmonton Airport Hotel located?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We're at 5705 50 Street, Leduc, Alberta T9E 6Z8, just off Highway 2 and minutes from Edmonton International Airport (YEG) and Nisku Business Park."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far is the hotel from Edmonton International Airport?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "About an 8-minute drive. Our complimentary airport shuttle runs 24/7."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far is the hotel from Edmonton attractions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "West Edmonton Mall, the University of Alberta and Rogers Place are each about 30 to 35 minutes away by car."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What makes the Plus different from other hotels near YEG?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Full-service amenities: an indoor pool with a waterslide, a hot tub, a fitness centre, free hot breakfast, a 24/7 airport shuttle, and Barney's Pub & Grill on site, home to Canada's first Pour-Your-Own Beer Wall. Add flexible meeting and banquet space, all minutes from Edmonton International Airport."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the hotel locally owned?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We're part of Denham Hospitality, a family of locally owned and operated hotels in Leduc that includes our sister property, Best Western Premier Denham Inn & Suites."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does “Our business is hospitality” mean?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every guest interaction, from the front desk to housekeeping to the breakfast buffet, is designed to make travellers feel welcomed and cared for."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you support the local Leduc community?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. As part of the Denham Hospitality family of locally operated hotels, we proudly support local Leduc events, sports teams and community partners."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I contact the hotel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Call (780) 986-6550, email plusguestservices@denhamhotels.com, or use our contact page. The front desk is open 24 hours, and we usually reply to emails within one business day."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer a complimentary airport shuttle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our complimentary shuttle runs 24/7 to and from Edmonton International Airport (YEG). Call the front desk at (780) 986-6550 when you land, or to schedule a pickup."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can the shuttle handle a large group arriving together?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The shuttle is available to every guest, including group blocks. For large groups arriving at the same time, we can schedule pickups in advance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer Park & Fly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our Park, Sleep & Go rates let you stay the night before your flight, leave your vehicle with us while you travel, and take our 24/7 shuttle to and from YEG. See Packages & Specials or call (780) 986-6550 for current rates and parking terms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a convenience store or vending on site?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We have a sundry shop and ice and vending machines."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I store my luggage?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Luggage storage is available at the front desk."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What time is check-in and check-out?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Check-in is at 4:00 p.m. and check-out is at 11:00 a.m."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I check in early or check out late?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Early check-in and late check-out are available on request, subject to availability. Fees may apply."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the cancellation policy?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cancellation policies vary by rate and package. Your policy is shown in the rate rules when you book and in your confirmation email."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the minimum age to check in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guests must be at least 18 years old, with valid government-issued photo ID and a credit card, to check in."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I combine packages with Best Western Rewards points?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Member rates and points-earning are available on most packages, though some promotional rates are excluded. Confirm when you book."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I book a package?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Select the package in the booking widget, or call the front desk at (780) 986-6550."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are packages refundable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cancellation policies vary by package. See the rate rules when you book."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I customize a package or add an enhancement?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. You can add extras such as charcuterie boards, chocolate-covered strawberries or a bottle of wine when you book, or by contacting the front desk in advance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many rooms does the hotel have?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "116 guest rooms and suites."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's in the guest rooms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pillow-top mattresses and premium linens, blackout drapes, individual climate control and air-conditioning, a mini-fridge, a microwave, a Keurig coffee maker, a 55\" smart TV with streaming services, a work desk, a hairdryer, and an iron and ironing board. Wi-Fi is free."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What suites do you offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our suites have fireplaces, whirlpools and kitchenettes, including the Whirlpool Suite (1 King) and the Kitchenette Suite (1 King). They suit longer stays and special occasions. See Rooms & Suites."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the maximum occupancy per room?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "King rooms and king suites sleep 2. Queen rooms sleep 4."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are rollaway beds and cribs available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Rollaway beds are available on request for $20 per night, and cribs are available on request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are connecting rooms available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A limited number of connecting rooms are available on request, subject to availability. Call the front desk at (780) 986-6550 to arrange."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I request a specific room or floor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We accept requests but can't guarantee them; they're subject to availability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the hotel smoke-free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The entire hotel is 100% smoke-free."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the hotel family-friendly?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Children 12 and under stay free in their parents' room with existing bedding, and the indoor waterslide is a family favourite."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are pets allowed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The hotel is not pet friendly. Service animals are welcome."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you have accessible rooms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We have two barrier-free rooms, available on request. Features include extra-wide bathroom doors, walk-in or roll-in showers with safety bars, a bathtub seat, a raised toilet with grab bars, lowered vanities, closed-captioned TV, and visual alarms with emergency alert lighting."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there an elevator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A wheelchair-accessible elevator serves all floors, and all rooms open onto interior corridors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Wi-Fi free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Free high-speed Wi-Fi is available throughout the hotel, in every guest room and in the meeting rooms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you have a business centre?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our on-site business centre has a computer, a copier and a fax."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I stream on the room TV?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Rooms have 55\" smart TVs with streaming services and an HDMI port."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is parking free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Outdoor parking is free for hotel guests and for meeting attendees who aren't staying overnight."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I park a truck, RV or bus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We have parking for trucks, RVs and motor coaches, which is useful for sports teams and work crews."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you have EV charging?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. One complimentary NACS (Tesla-style) EV charger is in the entrance parking lot. It's available 24/7 on a first-come, first-served basis."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you have block heater plug-ins?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Plug-ins are available for winter parking."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is breakfast included?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A complimentary hot buffet breakfast is included with every stay, served daily from 6:00 to 10:00 a.m. It rotates eggs and meats, potatoes, French toast or pancakes, oatmeal, yogurt parfaits, fresh fruit, breads and pastries, with gluten-friendly options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you have a pool, hot tub and waterslide?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our heated indoor pool has a waterslide, and there's a hot tub. Both are open year-round from 8:00 a.m. to 11:00 p.m. Children must be supervised by an adult."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you have a fitness centre?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our complimentary fitness centre is open from 5:00 a.m. to 11:00 p.m. It has treadmills, a stair stepper, a stationary bike, a universal gym and free weights."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there guest laundry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Self-serve laundry is available for a small fee from 8:00 a.m. to 11:00 p.m. Valet laundry and dry cleaning are also available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the front desk open 24 hours?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Wake-up calls are also available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a restaurant on site?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Barney's Pub & Grill is inside the hotel. It's home to Canada's first Pour-Your-Own Beer Wall, with 12 rotating Alberta craft beer taps, scratch-made pub food, daily specials, big screens for the game, and a glass-enclosed patio with a fireplace that seats 40."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are Barney's hours?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Monday and Tuesday 10:00 a.m. to 1:00 a.m., Wednesday to Saturday 10:00 a.m. to 2:00 a.m., and Sunday 10:00 a.m. to 1:00 a.m."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there room service?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Room service is available daily from 11:00 a.m. to midnight."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I order takeout from Barney's?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Order online or call (780) 986-6550."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Barney's have daily specials?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, including Taco Tuesday, Wine & Pasta Wednesday, and late-night happy hour daily from 9:00 p.m. to midnight."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I reserve a table at Barney's?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Reservations are available through Barney's website."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you have meeting and event space?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our event spaces suit everything from boardroom meetings to receptions: Explorer Ballroom (1,900 sq ft; divides into Explorer A and B, 950 sq ft each): up to 120 for receptions or theatre seating, and up to 112 for banquets; Denham Room (870 sq ft): up to 60 for receptions, 55 theatre-style and 48 for banquets; Barney's Office boardroom: up to 20; Lobby Lounge: receptions for up to 45; On-site catering, bar service and in-house audio-visual support are available."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What AV and event services do you offer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Projectors, screens, wireless microphones and sound equipment, all supported by our in-house team, plus Wi-Fi in every meeting room, bar service and beverage packages, and on-site catering. A permanent boardroom setup is available, and some rooms have natural light."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What catering options are available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chef-crafted buffets, plated dinners, hors d'oeuvres, interactive food stations and late-night snacks, with menus for casual gatherings through to elegant receptions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I host a larger event or wedding?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. For events of up to 200 seated guests, our sister hotel in downtown Leduc, Best Western Premier Denham Inn & Suites, has the Discovery Ballroom (up to 200) and the Marquis Ballroom (up to 90). Our sales team plans events at both hotels. See meetings and events and weddings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I request an event proposal?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Email our sales team at sales@denhamhotels.com or call (780) 986-6550."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the minimum number of rooms for a group rate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Group rates start at 10 rooms per night. Courtesy room blocks of under 20 rooms don't require a deposit. Terms are set out in a simple room block agreement covering dates, room types and the cut-off deadline. Learn about group room blocks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How far in advance should I book a group block?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We recommend booking 60 to 90 days ahead for weddings and conferences, and as early as possible during peak season (May to September). We accept last-minute blocks, subject to availability."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can guests book individually?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Each block gets its own booking link or rooming list, so guests can book and pay individually."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer welcome bags or in-room amenities for groups?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our sales team can coordinate these, and fees apply for custom welcome bags."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What if my group needs fewer rooms than booked?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unbooked rooms are released back to the hotel on the cut-off date in your room block agreement. Contact our sales team before the cut-off if you need to adjust your block."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you host sports teams and tournaments?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We regularly host teams, with group rates, free bus and trailer parking, a 24/7 airport shuttle, and quick access to Leduc and Nisku sports venues."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is there to do near the hotel?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Leduc's Main Street (a filming location for several productions), the 8 km Telford Lake Boardwalk, Stone Barn Garden, the Leduc Recreation Centre, the Maclab Centre for the Performing Arts, and Rig Hand Distillery. Ask the front desk about distillery tours."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the hotel close to Nisku Business Park?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, just minutes away, with direct Highway 2 access. See our location."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What positions are typically available?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We hire across the front desk, housekeeping, maintenance, food and beverage (Barney's Pub & Grill), banquets and events, and administration."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer full-time and part-time positions?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, both, depending on department needs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need previous hotel experience?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not always. We value attitude and willingness to learn, and training is provided."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I apply?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Email your resume to plusguestservices@denhamhotels.com or apply through our careers page."
+      }
+    }
+  ]
+}

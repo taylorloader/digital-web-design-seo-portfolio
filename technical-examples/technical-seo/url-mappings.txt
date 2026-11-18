@@ -6,3 +6,15 @@
 /lounge -> /jonathans-lounge 301
 /rooms -> /rooms-suites 301
 /meetings -> /meetings-events 301
+
+# Best Western Plus Edmonton Airport Hotel (bwedmontonairporthotel.com)
+/meetings-events -> https://www.bestwesterndenham.com/meetings-events 301
+/weddings-venue-leduc -> https://www.bestwesterndenham.com/weddings-venue-leduc 301
+/banquets -> https://www.bestwesterndenham.com/banquets 301
+/about-our-denham-team-and-story -> /team 301
+/group-booking-teams -> /group-room-blocks 301
+/rooms -> /rooms-suites 301
+/packages -> /packages-specials 301
+/location -> /hotel-near-edmonton-international-airport 301
+/careers -> /careers-at-denham-hospitality 301
+/barneys -> https://www.barneyspubleduc.com/ 301
