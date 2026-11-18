@@ -1,12 +1,7 @@
 # Technical examples
 
-This section will contain selected, sanitized examples of front-end customization and technical SEO work.
+Selected, sanitized examples of front-end customization and technical SEO work. All examples contain only public information or code I authored.
 
-Planned categories:
-
-- Custom CSS
-- HTML snippets
-- JSON-LD / Schema.org structured data
-- Technical SEO notes
-
-Examples should be authored or approved for sharing, with credentials, private URLs, personal information, and confidential business details removed.
+- **[Custom CSS](custom-css/)** — the Denham three-style interactive button system, with a live demo and state comparison graphic.
+- **[Structured data](structured-data/)** — hand-written JSON-LD / Schema.org entities (`Hotel`, `Restaurant`, `Service`).
+- **[AI discoverability](ai-discoverability/)** — `llms.txt` implementation for AI answer engines, kept consistent with the site's structured data.

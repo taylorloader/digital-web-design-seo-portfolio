@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Hotel",
+  "@id": "https://www.bestwesterndenham.com/#hotel",
+  "name": "Best Western Premier Denham Inn & Suites",
+  "url": "https://www.bestwesterndenham.com/",
+  "description": "Best Western Premier Denham Inn & Suites is a full-service hotel in Leduc, Alberta, Canada, minutes from Edmonton International Airport (YEG). The hotel offers guest rooms and suites, a complimentary 24-hour airport shuttle, on-site dining and lounge, and facilities for weddings, meetings and other events.",
+  "telephone": "+1-780-986-2241",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5207 50 Avenue",
+    "addressLocality": "Leduc",
+    "addressRegion": "Alberta",
+    "postalCode": "T9E 6V3",
+    "addressCountry": "CA"
+  },
+  "checkinTime": "16:00",
+  "checkoutTime": "11:00",
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Complimentary 24-hour airport shuttle", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "On-site restaurant", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "On-site lounge", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Hot tub", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Fitness centre", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Business centre", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Convenience store", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Massage chairs", "value": true }
+  ]
+}
