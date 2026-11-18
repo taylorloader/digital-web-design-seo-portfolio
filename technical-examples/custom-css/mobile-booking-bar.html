@@ -1,0 +1,34 @@
+<!-- Squarespace: Settings → Developer Tools → Code Injection → Footer
+     Squarespace hides the header "Book Your Stay" button on phones. This pins
+     it to the bottom of the screen on mobile, reusing the header button's live
+     link so it always matches the booking URL set in the header. It hides
+     while the mobile menu is open and never shows on desktop. -->
+<style>
+  .bw-mobile-book { display: none; }
+  @media screen and (max-width: 767px) {
+    .bw-mobile-book {
+      display: flex; align-items: center; justify-content: center;
+      position: fixed; left: 12px; right: 12px;
+      bottom: calc(12px + env(safe-area-inset-bottom));
+      z-index: 999; min-height: 50px; border-radius: 6px;
+      font-family: var(--primary-button-font-font-family) !important;
+      font-weight: 500; font-size: 17px !important;
+      text-decoration: none !important;
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.28);
+    }
+    body { padding-bottom: 76px; }
+    body.header--menu-open .bw-mobile-book { display: none; }
+  }
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var source = document.querySelector('.header-display-desktop .header-actions-action--cta a');
+    if (!source || document.querySelector('.bw-mobile-book')) return;
+    var bar = document.createElement('a');
+    bar.href = source.href;
+    if (source.target) { bar.target = source.target; bar.rel = 'noopener'; }
+    bar.className = 'bw-mobile-book btn sqs-button-element--primary theme-btn--primary';
+    bar.textContent = 'Book Your Stay';
+    document.body.appendChild(bar);
+  });
+</script>

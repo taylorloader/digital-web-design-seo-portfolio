@@ -1,0 +1,27 @@
+/* Squarespace 7.1 Fluid Engine: re-flow two homepage sections into 2 x 2 tiles
+   on phones (mobile homepage ~10,240 px → ~8,600 px).
+
+   Note: Squarespace compiles Custom CSS with LESS, which evaluates
+   `grid-area: 6 / 2 / 12 / 6` as division (→ 0.0417) and silently breaks the
+   rule. Longhand grid-row / grid-column properties avoid the slash entirely. */
+@media screen and (max-width: 767px) {
+  /* Section grid: shorter row template so the freed space collapses */
+  .fe-69974d3103faf93d353571e5 { grid-template-rows: repeat(24, minmax(24px, auto)) !important; }
+
+  /* Tile 1: image + caption button (left column, first row) */
+  .fe-69974d3103faf93d353571e5 .fe-block-b89f4d93ba1ace8b6473 {
+    grid-row-start: 6 !important; grid-row-end: 12 !important;
+    grid-column-start: 2 !important; grid-column-end: 6 !important;
+  }
+  .fe-69974d3103faf93d353571e5 .fe-block-yui_3_17_2_1_1772232595310_10731 {
+    grid-row-start: 11 !important; grid-row-end: 13 !important;
+    grid-column-start: 2 !important; grid-column-end: 6 !important;
+  }
+  /* …the same pattern repeats for the other three tiles and for the
+     "Enhance Your Stay" section (columns 2–6 and 6–10, two rows). */
+
+  /* Half-width caption buttons: smaller type that can wrap */
+  .fe-69974d3103faf93d353571e5 .sqs-block-button .sqs-block-button-element {
+    font-size: 12px !important; white-space: normal !important; line-height: 1.2 !important;
+  }
+}

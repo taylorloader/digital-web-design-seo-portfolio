@@ -1,0 +1,104 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.bestwesterndenham.com/#denham-hospitality",
+      "name": "Denham Hospitality",
+      "url": "https://www.bestwesterndenham.com/about-our-denham-team-and-story"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.bestwesterndenham.com/#website",
+      "url": "https://www.bestwesterndenham.com/",
+      "name": "Best Western Premier Denham Inn & Suites",
+      "inLanguage": "en-CA",
+      "publisher": {
+        "@id": "https://www.bestwesterndenham.com/#hotel"
+      }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://www.bestwesterndenham.com/#hotel",
+      "name": "Best Western Premier Denham Inn & Suites",
+      "url": "https://www.bestwesterndenham.com/",
+      "description": "Best Western Premier Denham Inn & Suites is a full-service hotel in Leduc, Alberta, Canada, minutes from Edmonton International Airport (YEG). The hotel offers guest rooms and suites, a complimentary 24-hour airport shuttle, on-site dining and lounge, and facilities for weddings, meetings and other events.",
+      "image": "https://static1.squarespace.com/static/691e39a7ce0fb00b89e2f051/t/69b327bbb5b4d71f191888a2/1773348795859/Website+Header+Photo.jpg",
+      "logo": "https://images.squarespace-cdn.com/content/v1/691e39a7ce0fb00b89e2f051/194f81f0-4eda-4f36-bf84-9ba91ed79149/DENHAM+INN+%26+SUITES+%284%29.png",
+      "telephone": "+1-780-986-2241",
+      "email": "premierguestservices@denhamhotels.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5207 50th Avenue",
+        "addressLocality": "Leduc",
+        "addressRegion": "AB",
+        "postalCode": "T9E 6V3",
+        "addressCountry": "CA"
+      },
+      "checkinTime": "16:00",
+      "checkoutTime": "11:00",
+      "brand": {
+        "@type": "Brand",
+        "name": "Best Western Premier"
+      },
+      "parentOrganization": {
+        "@id": "https://www.bestwesterndenham.com/#denham-hospitality"
+      },
+      "containsPlace": [
+        {
+          "@id": "https://www.bestwesterndenham.com/obrians-restaurant#restaurant"
+        },
+        {
+          "@id": "https://www.bestwesterndenham.com/jonathans-lounge#bar"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/bwpdenham/",
+        "https://www.instagram.com/bwdenhaminnleduc/",
+        "https://www.linkedin.com/company/best-western-premier-denham-inn-suites/"
+      ],
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Complimentary 24-hour airport shuttle",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "On-site restaurant",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "On-site lounge",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Hot tub",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Fitness centre",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Business centre",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Convenience store",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Massage chairs",
+          "value": true
+        }
+      ]
+    }
+  ]
+}

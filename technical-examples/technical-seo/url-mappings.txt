@@ -1,0 +1,8 @@
+# Squarespace: Settings → Developer Tools → URL Mappings
+# Legacy and mistyped internal links found in a full-site crawl (79 pages, 157 unique links),
+# permanently redirected to their keyword-led pages.
+/restaurant -> /obrians-restaurant 301
+/jonathans -> /jonathans-lounge 301
+/lounge -> /jonathans-lounge 301
+/rooms -> /rooms-suites 301
+/meetings -> /meetings-events 301

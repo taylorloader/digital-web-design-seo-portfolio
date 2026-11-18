@@ -1,0 +1,14 @@
+<!-- Squarespace: Happenings blog → Blog Settings → Advanced → Page Header Code Injection
+     Keeps thin tag and category archive pages out of search results while
+     crawlers can still follow their links to the full posts. The blog index
+     and individual posts are unaffected. -->
+<script>
+(function () {
+  if (/\/happenings\/(tag|category)\//.test(window.location.pathname)) {
+    var meta = document.createElement('meta');
+    meta.name = 'robots';
+    meta.content = 'noindex, follow';
+    document.head.appendChild(meta);
+  }
+})();
+</script>
