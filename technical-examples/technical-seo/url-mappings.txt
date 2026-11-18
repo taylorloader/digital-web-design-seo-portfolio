@@ -18,3 +18,19 @@
 /location -> /hotel-near-edmonton-international-airport 301
 /careers -> /careers-at-denham-hospitality 301
 /barneys -> https://www.barneyspubleduc.com/ 301
+
+# Best Western Plus Rose Country Hotel, Camrose (bestwesterncamrose.com)
+# Paths copied from the Premier/Leduc build
+/weddings-venue-leduc -> /weddings-venue-camrose 301
+/obrians-restaurant -> /rosies-kitchen 301
+/jonathans-lounge -> /jokers-den 301
+/about-our-denham-team-and-story -> /team 301
+# Short, shareable URLs
+/weddings -> /weddings-venue-camrose 301
+/meetings -> /meetings-events 301
+/rooms -> /rooms-suites 301
+/packages -> /packages-specials 301
+/location -> /camrosehotelandcasino 301
+/careers -> /careers-at-denham-hospitality 301
+/restaurant -> /rosies-kitchen 301
+/lounge -> /jokers-den 301

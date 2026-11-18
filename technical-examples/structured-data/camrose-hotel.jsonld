@@ -1,0 +1,216 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.bestwesterndenham.com/#denham-hospitality",
+      "name": "Denham Hospitality",
+      "url": "https://www.bestwesterndenham.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.bestwesterncamrose.com/#website",
+      "url": "https://www.bestwesterncamrose.com/",
+      "name": "Best Western Plus Rose Country Hotel",
+      "inLanguage": "en-CA",
+      "publisher": {
+        "@id": "https://www.bestwesterncamrose.com/#hotel"
+      }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://www.bestwesterncamrose.com/#hotel",
+      "name": "Best Western Plus Rose Country Hotel",
+      "url": "https://www.bestwesterncamrose.com/",
+      "description": "Full-service, pet-friendly hotel in Camrose, Alberta, with an indoor waterslide pool, the Camrose Resort Casino, Rosie's Kitchen restaurant, Joker's Den lounge and the Regal Ballroom for weddings and events.",
+      "telephone": "+1-780-679-2376",
+      "email": "rcguestservices@denhamhotels.com",
+      "logo": "https://images.squarespace-cdn.com/content/v1/6a74be08084e847e7c0c0ea4/6c27de5a-3625-49ab-aa14-6af005224e2b/BW+PLUS+Rose+Country+Hotel+Logo+%281%29.png",
+      "image": "https://static1.squarespace.com/static/6a74be08084e847e7c0c0ea4/t/6ac6810a0661607db88b8c1f/1791394058152/KDR_0441.jpg",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3201 48 Avenue",
+        "addressLocality": "Camrose",
+        "addressRegion": "AB",
+        "postalCode": "T4V 0K9",
+        "addressCountry": "CA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.00963,
+        "longitude": -112.78779
+      },
+      "brand": {
+        "@type": "Brand",
+        "name": "Best Western Plus"
+      },
+      "parentOrganization": {
+        "@id": "https://www.bestwesterndenham.com/#denham-hospitality"
+      },
+      "checkinTime": "16:00",
+      "checkoutTime": "11:00",
+      "numberOfRooms": 112,
+      "petsAllowed": true,
+      "smokingAllowed": false,
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Indoor pool with waterslide",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Hot tub",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "24-hour fitness centre",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free Wi-Fi",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free parking (including truck, RV and motor coach)",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Cold-weather plug-ins",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Guest laundry",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Room service",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "On-site casino",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Meeting and banquet space",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Accessible rooms",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Pet friendly",
+          "value": true
+        }
+      ],
+      "containsPlace": [
+        {
+          "@id": "https://www.bestwesterncamrose.com/#rosies-kitchen"
+        },
+        {
+          "@id": "https://www.bestwesterncamrose.com/#jokers-den"
+        },
+        {
+          "@id": "https://www.bestwesterncamrose.com/#casino"
+        }
+      ],
+      "subjectOf": {
+        "@id": "https://www.bestwesterncamrose.com/faq#faqpage"
+      },
+      "sameAs": [
+        "https://www.bestwestern.com/en-us/book/hotel/camrose/best-western-plus-rose-country-hotel/61110"
+      ]
+    },
+    {
+      "@type": "Restaurant",
+      "@id": "https://www.bestwesterncamrose.com/#rosies-kitchen",
+      "name": "Rosie's Kitchen",
+      "url": "https://www.bestwesterncamrose.com/rosies-kitchen",
+      "telephone": "+1-780-679-2376",
+      "servesCuisine": [
+        "Canadian",
+        "Family dining"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3201 48 Avenue",
+        "addressLocality": "Camrose",
+        "addressRegion": "AB",
+        "postalCode": "T4V 0K9",
+        "addressCountry": "CA"
+      },
+      "containedInPlace": {
+        "@id": "https://www.bestwesterncamrose.com/#hotel"
+      }
+    },
+    {
+      "@type": "BarOrPub",
+      "@id": "https://www.bestwesterncamrose.com/#jokers-den",
+      "name": "Joker's Den",
+      "url": "https://www.bestwesterncamrose.com/jokers-den",
+      "telephone": "+1-780-679-0904",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3201 48 Avenue",
+        "addressLocality": "Camrose",
+        "addressRegion": "AB",
+        "postalCode": "T4V 0K9",
+        "addressCountry": "CA"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "opens": "11:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "11:00",
+          "closes": "02:00"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://www.bestwesterncamrose.com/#hotel"
+      }
+    },
+    {
+      "@type": "Casino",
+      "@id": "https://www.bestwesterncamrose.com/#casino",
+      "name": "Camrose Resort Casino",
+      "url": "https://www.bestwesterncamrose.com/casino",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3201 48 Avenue",
+        "addressLocality": "Camrose",
+        "addressRegion": "AB",
+        "postalCode": "T4V 0K9",
+        "addressCountry": "CA"
+      },
+      "containedInPlace": {
+        "@id": "https://www.bestwesterncamrose.com/#hotel"
+      }
+    }
+  ]
+}
