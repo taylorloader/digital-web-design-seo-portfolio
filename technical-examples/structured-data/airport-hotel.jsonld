@@ -1,0 +1,184 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.bestwesterndenham.com/#denham-hospitality",
+      "name": "Denham Hospitality",
+      "url": "https://www.bestwesterndenham.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.bwedmontonairporthotel.com/#website",
+      "url": "https://www.bwedmontonairporthotel.com/",
+      "name": "Best Western Plus Edmonton Airport Hotel",
+      "inLanguage": "en-CA",
+      "publisher": {
+        "@id": "https://www.bwedmontonairporthotel.com/#hotel"
+      }
+    },
+    {
+      "@type": "Hotel",
+      "@id": "https://www.bwedmontonairporthotel.com/#hotel",
+      "name": "Best Western Plus Edmonton Airport Hotel",
+      "url": "https://www.bwedmontonairporthotel.com/",
+      "description": "Full-service, locally owned hotel in Leduc, Alberta, about 8 minutes from Edmonton International Airport (YEG), with a complimentary 24/7 airport shuttle, free hot breakfast, an indoor waterslide pool and Barney's Pub & Grill on site.",
+      "telephone": "+1-780-986-6550",
+      "email": "plusguestservices@denhamhotels.com",
+      "logo": "https://images.squarespace-cdn.com/content/v1/69dd319807b1325b4d753023/54e936dc-57a2-45ea-bee1-13c0e9b61726/BW+PLUS+LOGO+%281%29.png",
+      "image": "https://static1.squarespace.com/static/69dd319807b1325b4d753023/t/6a5fbdefb545114fe3874c63/1784659439440/best+western+edmonton+airport+hotel.webp",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5705 50 Street",
+        "addressLocality": "Leduc",
+        "addressRegion": "AB",
+        "postalCode": "T9E 6Z8",
+        "addressCountry": "CA"
+      },
+      "brand": {
+        "@type": "Brand",
+        "name": "Best Western Plus"
+      },
+      "parentOrganization": {
+        "@id": "https://www.bestwesterndenham.com/#denham-hospitality"
+      },
+      "checkinTime": "16:00",
+      "checkoutTime": "11:00",
+      "numberOfRooms": 116,
+      "petsAllowed": false,
+      "smokingAllowed": false,
+      "priceRange": "$$",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Complimentary 24/7 airport shuttle to Edmonton International Airport (YEG)",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free hot breakfast",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Indoor pool with waterslide",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Hot tub",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Fitness centre",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free Wi-Fi",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free parking",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Truck, RV and motor coach parking",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "EV charging",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Guest laundry",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Business centre",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Room service",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Meeting and banquet space",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Accessible rooms",
+          "value": true
+        }
+      ],
+      "containsPlace": [
+        {
+          "@id": "https://www.bwedmontonairporthotel.com/#barneys"
+        }
+      ],
+      "subjectOf": {
+        "@id": "https://www.bwedmontonairporthotel.com/faq#faqpage"
+      },
+      "sameAs": [
+        "https://www.bestwestern.com/en-us/book/hotel/leduc/best-western-plus-edmonton-airport-hotel/61097"
+      ]
+    },
+    {
+      "@type": "BarOrPub",
+      "@id": "https://www.bwedmontonairporthotel.com/#barneys",
+      "name": "Barney's Pub & Grill",
+      "url": "https://www.barneyspubleduc.com/",
+      "telephone": "+1-780-986-6550",
+      "description": "On-site pub with Canada's first Pour-Your-Own Beer Wall, 12 rotating Alberta craft beer taps and scratch-made pub food.",
+      "servesCuisine": [
+        "Pub food",
+        "Canadian"
+      ],
+      "hasMenu": "https://www.barneyspubleduc.com/food",
+      "acceptsReservations": true,
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5705 50 Street",
+        "addressLocality": "Leduc",
+        "addressRegion": "AB",
+        "postalCode": "T9E 6Z8",
+        "addressCountry": "CA"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Sunday"
+          ],
+          "opens": "10:00",
+          "closes": "01:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "10:00",
+          "closes": "02:00"
+        }
+      ],
+      "containedInPlace": {
+        "@id": "https://www.bwedmontonairporthotel.com/#hotel"
+      }
+    }
+  ]
+}
