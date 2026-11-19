@@ -1,6 +1,6 @@
 # Hospitality Website Design & Digital Strategy Portfolio
 
-A portfolio documenting website design, development, content strategy, SEO, and technical customization across hospitality websites within **Denham Hospitality Organization (DHO)**.
+A portfolio documenting website design, development, content strategy, SEO, and technical customization across hospitality websites within **Denham Hospitality Organization (DHO)**, plus a full rebuild and rebrand for **Casawise**, an Edmonton property management and realty company.
 
 I design, build, write, and manage Squarespace 7.1 websites, combining clear user experiences with useful content, search optimization, and practical front-end customization.
 
@@ -13,6 +13,7 @@ I design, build, write, and manage Squarespace 7.1 websites, combining clear use
 | Best Western Camrose | [bestwesterncamrose.com](https://www.bestwesterncamrose.com/) | Live |
 | Best Western Lacombe | — | In progress |
 | Denham Hospitality Organization | [denhamhospitality.com](https://www.denhamhospitality.com/) | In progress |
+| **Casawise** (property management & realty, Edmonton) | — | **In progress: full rebuild & rebrand** |
 
 ## What this portfolio covers
 
@@ -27,6 +28,10 @@ I design, build, write, and manage Squarespace 7.1 websites, combining clear use
 - [Best Western Premier Denham Inn & Suites](projects/best-western-premier-denham/) — flagship case study.
 - [Best Western Plus Edmonton Airport Hotel](projects/edmonton-airport-hotel/)
 - [Best Western Camrose](projects/best-western-camrose/)
+
+## Now building: Casawise rebuild & rebrand
+
+I'm leading a full website rebuild and rebrand for **Casawise**, an Edmonton property management and realty company. The new brand pairs Edmonton's energy with a trustworthy, full-service approach to managing people's homes and investments. [Follow the project](projects/casawise/).
 
 ## Featured technical example: Denham button system
 
